@@ -24,7 +24,7 @@ public class PlayerWinsDiagnol1Test {
     @Test
     public void getWinnerTest() {
         // Given
-        String expectedWinner = "O";
+        String expectedWinner = null;
 
         // When
         String actualWinner = board.getWinner();
@@ -38,7 +38,7 @@ public class PlayerWinsDiagnol1Test {
     @Test
     public void isInFavorOfPlayerOTest() {
         // Given
-        Boolean expected = true;
+        Boolean expected = false;
 
         // When
         Boolean actual = board.isInFavorOfO();
@@ -63,7 +63,7 @@ public class PlayerWinsDiagnol1Test {
     @Test
     public void isTieTest() {
         // Given
-        Boolean expected = false;
+        Boolean expected = true;
 
         // When
         Boolean actual = board.isTie();

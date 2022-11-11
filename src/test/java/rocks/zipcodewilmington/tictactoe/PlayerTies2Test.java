@@ -24,7 +24,7 @@ public class PlayerTies2Test {
     @Test
     public void getWinnerTest() {
         // Given
-        String expectedWinner = "";
+        String expectedWinner = null;
 
         // When
         String actualWinner = board.getWinner();
